@@ -14,12 +14,10 @@ export default defineConfig({
       routeToken:'_layout'
     }),
     react({
-      babel: {
-        plugins: [
-          ['babel-plugin-react-compiler', {target:'19'}]
-        ]
-      }
-    }),
+			babel: {
+				plugins: [["babel-plugin-react-compiler", { target: "19" }]],
+			},
+		}),
     tailwindcss()
   ],
   resolve: {
