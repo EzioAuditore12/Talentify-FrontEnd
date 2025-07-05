@@ -8,12 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "biome check src",
     "format": "biome check --write src",
+    "preview": "vite preview",
     "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/vite": "^4.1.10",
     "@tanstack/react-form": "^1.12.3",
     "@tanstack/react-router": "^1.121.34",
@@ -23,6 +25,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.523.0",
+    "motion": "^12.23.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "swr": "^2.3.3",
